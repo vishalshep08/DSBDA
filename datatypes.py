@@ -1,4 +1,4 @@
-#Identifying the various datatypes with the type function
+#Getting the datatypes
 a=100
 b=20.10
 c=20+3j
