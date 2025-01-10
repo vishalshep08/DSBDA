@@ -2,8 +2,8 @@
 a=100
 b=20.10
 c=20+3j
-str='Hello World!'
-list=[10,20]
+string_var='Hello World!'
+list_var=[10,20]
 tuple=(10,20)
 dict={'name':'Vishal','age':20}
 print("The datatype of the variable a is",type(a))
@@ -15,8 +15,8 @@ print("The datatype of the variable tuple is",type(tuple))
 print("The datatype of the variable dict is",type(dict))
 
 print(type(100))
-print(str)
-print(str[0:2])
+print(string_var)
+print(string_var[0:2])
 
 #List
 list1=[10,'Python',20.10]
