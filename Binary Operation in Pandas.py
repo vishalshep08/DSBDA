@@ -46,3 +46,20 @@ print("\nEqual to 30:\n", df.eq(30))
 print("\nLess than or equal to 30:\n", df.le(30))
 print("\nGreater than or equal to 40:\n", df.ge(40))
 print("\nNot equal to 30:\n", df.ne(30))
+
+
+# Create two DataFrames
+df1 = pd.DataFrame({'A': [1, 0, 3], 'B': [9, 5, 6]})
+df2 = pd.DataFrame({'A': [1, 2, 1], 'B': [6, 5, 4]})
+
+# Display the Input DataFrames
+print("DataFrame 1:\n", df1)
+print("\nDataFrame 2:\n", df2)
+
+# Perform comparison operations between two DataFrames
+print("\nEqual :\n", df1.eq(df2))
+print("\nNot Equal:\n", df1.ne(df2))
+print("\ndf1 Less than df2:\n", df1.lt(df2))
+print("\ndf1 Greater than df2:\n", df1.gt(df2))
+print("\ndf1 Less than or equal to df2:\n", df1.le(df2))
+print("\ndf1 Greater than or equal to df2:\n", df1.ge(df2))
