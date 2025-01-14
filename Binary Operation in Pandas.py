@@ -30,3 +30,19 @@ print("\nLess than or equal to 30:\n", s.le(30))
 print("\nGreater than or equal to 40:\n", s.ge(40))
 print("\nNot equal to 30:\n", s.ne(30))
 print("\nEqual to 50:\n", s.eq(50))
+
+
+# Create a DataFrame
+data = {'A': [10, 20, 30], 'B': [40, 50, 60]}
+df = pd.DataFrame(data)
+
+# Display the DataFrame
+print("DataFrame:\n", df)
+
+# Perform comparison operations
+print("\nLess than 25:\n", df.lt(25))
+print("\nGreater than 50:\n", df.gt(50))
+print("\nEqual to 30:\n", df.eq(30))
+print("\nLess than or equal to 30:\n", df.le(30))
+print("\nGreater than or equal to 40:\n", df.ge(40))
+print("\nNot equal to 30:\n", df.ne(30))
