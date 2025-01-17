@@ -10,6 +10,7 @@ print(df.describe())
 print(df.head())
 print(df.tail())
 print(df.shape)
+print(df.columns)
 
 
 #converting a categorical variable (string-based) into a quantitative variable (integer-based)
