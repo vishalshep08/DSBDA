@@ -20,3 +20,6 @@ print(df[irisSet].describe())
 irisVer = (df['Species']== 'Iris-versicolor')
 print('Iris-versicolor')
 print(df[irisVer].describe())
+
+#Standard Deviation
+print(df['SepalLength'].std())
