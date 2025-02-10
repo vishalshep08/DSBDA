@@ -71,3 +71,4 @@ lower = df['math score'] <= (Q1 - 1.5 * IQR)
 print("Lower bound:", lower)
 print(np.where(lower))
 
+
