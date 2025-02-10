@@ -54,3 +54,4 @@ print(groupby_sum)
 groupby_count1 = df.groupby(['Payment']).count()
 print(groupby_count1)
 
+
