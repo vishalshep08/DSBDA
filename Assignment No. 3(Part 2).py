@@ -11,6 +11,7 @@ print(df.tail())
 print(df.describe())
 
 #Assigning the column values
+print("-----------Statistical Operations on iris dataset-----------")
 # col_names = ['SepalWidth', 'PetalLength', 'PetalWidth','Species']
 irisSet = (df['Species']== 'Iris-setosa')
 print('Iris-setosa')
