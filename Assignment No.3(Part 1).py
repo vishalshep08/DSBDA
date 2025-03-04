@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 df = pd.read_csv("supermarket_sales.csv")
+print("---------Basic Statistics------------")
 #Printing the first rows
 print(df.head())
 #Printing the last rows
@@ -43,6 +44,7 @@ var = df['Quantity'].var()
 print(var)
 
 #Group by on City column
+print("----------Group by function-------------")
 groupby_sum = df.groupby(['City']).sum()
 print(groupby_sum)
 groupby_count = df.groupby(['City']).count()
